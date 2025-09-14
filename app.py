@@ -36,7 +36,7 @@ def load_components():
 
 embedding_model, vector_store, llm = load_components()
 
-st.title("💬 Hands-on-ML chatbot")
+st.title("💬 Bank FAQ chatbot")
 
 # Initialize chat history and memory in session state
 if "messages" not in st.session_state:
